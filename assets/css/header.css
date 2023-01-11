@@ -1,0 +1,26 @@
+#layout-header nav {
+    display: flex;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 10px;
+    /* background: #2196f3; */
+    background-image: linear-gradient(50deg, #4568DC 0%,  #b06ab3 74%);
+    color: white;
+    box-shadow: 0.3px 0.3px 0.3px 0.3px whitesmoke; 
+  }
+    #layout-header nav .mini-logo p {
+      margin: 5px;
+      font-size: 1.4rem;
+      font-weight: bold; }
+    #layout-header nav .auth-links ul {
+      margin: 5% 5px;
+      display: flex; }
+      #layout-header nav .auth-links ul li {
+        margin-right: 10px;
+        list-style: none; }
+    #layout-header nav a {
+      color: white;
+      text-decoration: none; }
+  
